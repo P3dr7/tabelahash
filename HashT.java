@@ -1,10 +1,10 @@
 package hashTableTree;
 
-public class HashTable<T> {
+public class HashT<T> {
     
 	private Tree[] buckets;
 
-    public HashTable() {
+    public HashT() {
         this.buckets = new Tree[3];
         for(int i=0; i<this.buckets.length; i++) {
             this.buckets[i] = new Tree();
